@@ -3,7 +3,7 @@
     "setup": "npm ci",
     "lint": "npm run lint",
     "build": "npm run build",
-    "test": null,
+    "test": "npm run test:unit",
     "release": null,
     "deploy": null,
     "rollback": null,
@@ -41,11 +41,7 @@
     "pointerFiles": true
   },
   "practices": {
-    "planSections": [
-      "Goal",
-      "Approach",
-      "Files to touch"
-    ],
+    "planSections": ["Goal", "Approach", "Files to touch"],
     "testEvidence": true,
     "testPatterns": [
       "\\.(test|spec)\\.[cm]?[jt]sx?$",
@@ -68,10 +64,7 @@
       "draft": false
     },
     "style": {
-      "forbidden": [
-        "—",
-        "–"
-      ],
+      "forbidden": ["—", "–"],
       "fillerWords": [
         "basically",
         "simply",
@@ -113,10 +106,7 @@
     "commitPattern": "^(feat|fix|chore|docs|refactor|test|build|ci|perf|style|revert)(\\([^)]+\\))?!?: .+",
     "commitScopes": null,
     "humanAuthorship": true,
-    "protectedBranches": [
-      "main",
-      "master"
-    ],
+    "protectedBranches": ["main", "master"],
     "maxDiffLines": 400,
     "secretScan": true,
     "exploitScan": true,
@@ -151,13 +141,6 @@
       ".terraform"
     ]
   },
-  "assistants": [
-    "agents",
-    "claude",
-    "cursor",
-    "copilot",
-    "windsurf",
-    "gemini"
-  ],
+  "assistants": ["agents", "claude", "cursor", "copilot", "windsurf", "gemini"],
   "approvals": "prompt"
 }
