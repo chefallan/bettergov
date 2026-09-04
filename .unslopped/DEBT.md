@@ -15,3 +15,4 @@ copy; fix it before it spreads), soon (costs someone time while it exists), acce
 - [soon] Weather and forex widgets call api.bettergov.ph; weather default city is not Kananga (src/lib) :: logged 2026-09-03, cycle 20260903-64e743
 - [soon] seo-metadata.json still carries BetterGov titles and descriptions on 99 routes; only the home entry is rebranded (src/data/seo-metadata.json) :: logged 2026-09-04, cycle 20260903-48acf0
 - [soon] react-helmet-async 2.0.5 renders no head tags in production builds with React 19; live bettergov.ph has the same empty document.title; consider React 19 native title and meta rendering (src/components/SEO.tsx) :: logged 2026-09-04, cycle 20260903-48acf0
+- [soon] Kananga profile page body is English only and navbar.kananga exists only in the en locale; localize both when the locale files are rebranded (src/pages/kananga) :: logged 2026-09-04, cycle 20260904-a03baa
