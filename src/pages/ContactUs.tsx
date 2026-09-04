@@ -9,7 +9,6 @@ import {
 } from 'lucide-react';
 import { SiDiscord } from '@icons-pack/react-simple-icons';
 import { FC, useState } from 'react';
-import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 
 const ContactUs: FC = () => {
@@ -87,7 +86,7 @@ const ContactUs: FC = () => {
 
   return (
     <div className='min-h-screen bg-gray-50'>
-      <Helmet>
+      <>
         <title>Contact Us | BetterGov.ph</title>
         <meta
           name='description'
@@ -106,7 +105,7 @@ const ContactUs: FC = () => {
         <meta property='og:type' content='website' />
         <meta property='og:url' content='https://bettergov.ph/contact' />
         <meta property='og:image' content='https://bettergov.ph/ph-logo.webp' />
-      </Helmet>
+      </>
 
       <div className='container mx-auto px-4 py-6 md:py-8'>
         {/* Header Section */}

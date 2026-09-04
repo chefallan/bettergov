@@ -1,6 +1,5 @@
 import { useState, useEffect, useRef, FC } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
 import { InstantSearch, Configure, useHits } from 'react-instantsearch';
 import { instantMeiliSearch } from '@meilisearch/instant-meilisearch';
 import 'instantsearch.css/themes/satellite.css';
@@ -642,7 +641,7 @@ const ContractorDetail: FC = () => {
 
   return (
     <div className='min-h-screen bg-gray-50'>
-      <Helmet>
+      <>
         <title>
           {contractor.value} - Flood Control Projects | BetterGov.ph
         </title>
@@ -650,7 +649,7 @@ const ContractorDetail: FC = () => {
           name='description'
           content={`View all flood control projects by ${contractor.value}. Total projects: ${contractor.count}`}
         />
-      </Helmet>
+      </>
 
       {/* Main layout */}
       <div className='container mx-auto px-4 py-8'>

@@ -14,13 +14,12 @@ import {
 } from 'lucide-react';
 import { SiDiscord } from '@icons-pack/react-simple-icons';
 import { FC } from 'react';
-import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 
 const JoinUs: FC = () => {
   return (
     <div className='min-h-screen bg-linear-to-br from-blue-50 via-white to-purple-50'>
-      <Helmet>
+      <>
         <title>Join Us | BetterGov.ph</title>
         <meta
           name='description'
@@ -35,7 +34,7 @@ const JoinUs: FC = () => {
         <meta property='og:type' content='website' />
         <meta property='og:url' content='https://bettergov.ph/join-us' />
         <meta property='og:image' content='https://bettergov.ph/ph-logo.webp' />
-      </Helmet>
+      </>
 
       {/* Hero Section */}
       <section className='relative overflow-hidden bg-linear-to-r from-primary-600 via-blue-700 to-purple-700 text-white'>

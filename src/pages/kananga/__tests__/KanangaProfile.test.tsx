@@ -1,5 +1,4 @@
 import { render, screen } from '@testing-library/react';
-import { HelmetProvider } from 'react-helmet-async';
 import { MemoryRouter } from 'react-router-dom';
 import { describe, expect, it, vi } from 'vitest';
 import KanangaProfile from '..';
@@ -15,11 +14,9 @@ vi.mock('react-i18next', () => ({
 
 const renderPage = () =>
   render(
-    <HelmetProvider>
-      <MemoryRouter initialEntries={['/kananga']}>
-        <KanangaProfile />
-      </MemoryRouter>
-    </HelmetProvider>
+    <MemoryRouter initialEntries={['/kananga']}>
+      <KanangaProfile />
+    </MemoryRouter>
   );
 
 describe('KanangaProfile', () => {

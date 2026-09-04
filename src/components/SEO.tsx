@@ -1,7 +1,5 @@
-import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Helmet } from 'react-helmet-async';
 import routeMeta from '../data/seo-metadata.json';
 import {
   formatStandardDescription,
@@ -36,7 +34,6 @@ export default function SEO({
 }: SEOProps = {}) {
   const location = useLocation();
   const { i18n } = useTranslation();
-  const [, forceUpdate] = useState({});
   const dcLanguage = i18n.resolvedLanguage || i18n.language || 'en';
 
   const routeMetaMap = routeMeta as Record<string, unknown>;
@@ -125,11 +122,6 @@ export default function SEO({
   const defaultDescription = SITE.description;
   const defaultCanonical = location.pathname + location.search;
 
-  useEffect(() => {
-    // Force a re-render of this component on route or query-string changes
-    // This ensures the Helmet instance is refreshed
-    forceUpdate({});
-  }, [location.pathname, location.search]);
   // Use provided values or defaults
   const finalTitle = title || routeTitle || defaultTitle;
   const finalDescription =
@@ -160,7 +152,7 @@ export default function SEO({
     : null;
 
   return (
-    <Helmet key={`${location.pathname}${location.search}-${dcLanguage}`}>
+    <>
       {/* Basic Meta Tags */}
       <title>{fullTitle}</title>
       <meta name='description' content={finalDescription} />
@@ -206,6 +198,6 @@ export default function SEO({
           {JSON.stringify(breadcrumbJsonLd)}
         </script>
       )}
-    </Helmet>
+    </>
   );
 }

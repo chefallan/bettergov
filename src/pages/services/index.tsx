@@ -8,7 +8,6 @@ import serviceCategories from '../../data/service_categories.json';
 // Import all service files
 import { scrollToTop } from '@/lib/scrollUtils';
 import { parseAsString, useQueryState, useQueryStates } from 'nuqs';
-import { Helmet } from 'react-helmet-async';
 import Button from '../../components/ui/Button';
 import businessTradeServices from '../../data/services/business-trade.json';
 import certificatesIdsServices from '../../data/services/certificates-ids.json';
@@ -238,7 +237,7 @@ export default function ServicesPage() {
 
   return (
     <div className='min-h-screen bg-gray-50'>
-      <Helmet key={canonicalUrl}>
+      <>
         <title>{metaTitle}</title>
         <meta name='description' content={metaDescription} />
         <meta name='keywords' content={metaKeywords} />
@@ -250,7 +249,7 @@ export default function ServicesPage() {
         <meta property='og:type' content='website' />
         <meta property='og:url' content={canonicalUrl} />
         <meta property='og:image' content='https://bettergov.ph/ph-logo.webp' />
-      </Helmet>
+      </>
       <div className='container mx-auto px-4 py-6 md:py-12'>
         {/* Header */}
         <header className='text-center mb-8 md:mb-12'>

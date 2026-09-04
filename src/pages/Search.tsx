@@ -12,7 +12,6 @@ import {
 import { instantMeiliSearch } from '@meilisearch/instant-meilisearch';
 import 'instantsearch.css/themes/satellite.css';
 import '../components/search/MeilisearchInstantSearch.css';
-import { Helmet } from 'react-helmet-async';
 
 interface SearchHit {
   objectID: string;
@@ -158,13 +157,13 @@ const Hit: FC<HitProps> = ({ hit }) => {
 const SearchPage: FC = () => {
   return (
     <div className='container mx-auto px-4 py-8'>
-      <Helmet>
+      <>
         <title>Search - Better Government Portal</title>
         <meta
           name='description'
           content='Search for government services and resources'
         />
-      </Helmet>
+      </>
 
       <h1 className='text-3xl font-bold mb-6'>Search</h1>
 

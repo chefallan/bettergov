@@ -1,5 +1,4 @@
 import { FC, useState } from 'react';
-import { Helmet } from 'react-helmet-async';
 import { useNavigate } from 'react-router-dom';
 import {
   InstantSearch,
@@ -605,13 +604,13 @@ const FloodControlProjectsContractors: FC = () => {
 
   return (
     <div className='min-h-screen bg-gray-50'>
-      <Helmet>
+      <>
         <title>Flood Control Projects Contractors | BetterGov.ph</title>
         <meta
           name='description'
           content='Explore flood control projects by contractor'
         />
-      </Helmet>
+      </>
 
       {/* Main layout with sidebar and content */}
       <div className='container mx-auto px-4 py-8'>

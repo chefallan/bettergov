@@ -1,5 +1,4 @@
 import { FC, useMemo, useState } from 'react';
-import { Helmet } from 'react-helmet-async';
 import { InstantSearch, Configure, useHits } from 'react-instantsearch';
 import { instantMeiliSearch } from '@meilisearch/instant-meilisearch';
 import 'instantsearch.css/themes/satellite.css';
@@ -762,13 +761,13 @@ const FloodControlProjectsTable: FC = () => {
 
   return (
     <div className='min-h-screen bg-gray-50'>
-      <Helmet>
+      <>
         <title>Flood Control Projects Table | BetterGov.ph</title>
         <meta
           name='description'
           content='Explore flood control projects data in tabular format'
         />
-      </Helmet>
+      </>
 
       {/* Main layout with sidebar and content */}
       <div className='container mx-auto px-4 py-8'>
