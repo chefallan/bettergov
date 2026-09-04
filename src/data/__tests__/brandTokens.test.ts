@@ -26,4 +26,12 @@ describe('brand tokens', () => {
     });
     expect(missing).toEqual([]);
   });
+
+  it('seo-metadata.json mentions BetterGov nowhere', () => {
+    const raw = readFileSync(
+      join(root, 'src', 'data', 'seo-metadata.json'),
+      'utf8'
+    );
+    expect(raw.includes('BetterGov')).toBe(false);
+  });
 });
