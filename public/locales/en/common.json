@@ -1,7 +1,7 @@
 {
   "hero": {
-    "title": "Welcome to BetterGov.ph",
-    "subtitle": "The volunteer run portal of the Republic of the Philippines. Find information, access government services, stay updated with the latest news about the Philippines.",
+    "title": "Welcome to BetterKananga",
+    "subtitle": "The community-run portal of the Municipality of Kananga, Leyte. Find local services, reach municipal offices, and stay informed about your town.",
     "nationalId": "National ID",
     "birthCertificate": "Birth Certificate",
     "businessRegistration": "Business Registration"
@@ -23,7 +23,7 @@
     "title": "Latest News & Updates"
   },
   "footer": {
-    "copyright": "2025 BetterGov.ph - All content is public domain unless otherwise specified."
+    "copyright": "2026 BetterKananga - All content is public domain unless otherwise specified."
   },
   "navbar": {
     "philippines": "Philippines",

@@ -8,6 +8,7 @@ import {
 import { FC, useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link, useLocation } from 'react-router-dom';
+import { SITE } from '../../config/site';
 import { footerNavigation } from '../../data/navigation';
 import versionData from '../../version.json';
 
@@ -58,17 +59,17 @@ const Footer: FC = () => {
             <div className='flex items-center mb-4'>
               <img
                 src='/logos/svg/BetterGov_Icon-White.svg'
-                alt='BetterGov Logo'
+                alt={`${SITE.name} logo`}
                 className='h-12 w-12 mr-3'
               />
 
               <div>
-                <div className='font-bold'>Better Philippines</div>
-                <div className='text-xs text-gray-400'>BetterGov.ph Portal</div>
+                <div className='font-bold'>Better Kananga</div>
+                <div className='text-xs text-gray-400'>{SITE.name} Portal</div>
               </div>
             </div>
             <p className='text-gray-400 text-sm mb-4'>
-              A community portal providing Philippine citizens, businesses, and
+              A community portal providing Kananga residents, businesses, and
               visitors with information and services.
             </p>
             <div className='flex space-x-4'>
@@ -124,7 +125,7 @@ const Footer: FC = () => {
             </p>
             <div className='flex space-x-6'>
               <Link
-                to='https://github.com/bettergovph/bettergov'
+                to={SITE.repoUrl}
                 className='text-gray-400 hover:text-white text-sm transition-colors'
               >
                 Contribute at GitHub
