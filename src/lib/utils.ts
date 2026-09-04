@@ -10,7 +10,7 @@ export function formatDate(date: Date): string {
     year: 'numeric',
     month: 'long',
     day: 'numeric',
-    timeZone: 'UTC',
+    timeZone: 'Asia/Manila',
   }).format(date);
 }
 

@@ -71,7 +71,7 @@ test.describe('Critical User Flows', () => {
     await languageSwitcher.selectOption('en');
 
     // Verify back to English
-    await expect(page.getByText('Welcome to BetterGov.ph')).toBeVisible();
+    await expect(page.getByText('Welcome to BetterKananga')).toBeVisible();
   });
 
   test('hotlines page should display emergency numbers', async ({ page }) => {
