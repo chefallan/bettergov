@@ -79,6 +79,9 @@ const KanangaProfile: FC = () => (
       <h3 className='mt-8 text-lg font-semibold text-gray-900'>
         Sangguniang Bayan members
       </h3>
+      <p className='mt-1 text-sm text-gray-600'>
+        Names as printed on the 2025 ballot.
+      </p>
       <ol className='mt-4 grid sm:grid-cols-2 gap-2'>
         {officials.councilors.map(councilor => (
           <li
@@ -99,10 +102,15 @@ const KanangaProfile: FC = () => (
       <p className='mt-1 text-sm text-gray-600'>{barangayData.source}.</p>
       <div className='mt-6 bg-white rounded-lg border overflow-x-auto'>
         <table className='w-full text-sm'>
+          <caption className='sr-only'>
+            Barangays of Kananga with {barangayData.census} census population
+          </caption>
           <thead>
             <tr className='border-b bg-gray-50 text-left'>
-              <th className='px-4 py-3 font-semibold'>Barangay</th>
-              <th className='px-4 py-3 font-semibold text-right'>
+              <th scope='col' className='px-4 py-3 font-semibold'>
+                Barangay
+              </th>
+              <th scope='col' className='px-4 py-3 font-semibold text-right'>
                 Population ({barangayData.census})
               </th>
             </tr>
@@ -137,8 +145,9 @@ const KanangaProfile: FC = () => (
           <p className='mt-2 text-sm text-gray-600'>
             Kananga hosts the Tongonan Geothermal Power Plant, the largest wet
             steam field in the Philippines, operated by the Energy Development
-            Corporation in barangay Tongonan. Geothermal royalties make Kananga
-            the richest municipality in {MUNICIPALITY.region}.
+            Corporation in barangay Tongonan. Geothermal royalties placed the
+            municipal revenue at 382.7 million pesos in 2024, the highest among
+            the municipalities of {MUNICIPALITY.region}.
           </p>
         </div>
         <div className='bg-white rounded-lg border p-6'>
