@@ -3,6 +3,10 @@
     "title": "BetterKananga | Community Powered Portal of Kananga, Leyte",
     "description": "Community-powered portal of the Municipality of Kananga, Leyte. Access municipal services, reach local offices, and stay informed about the town."
   },
+  "/kananga": {
+    "title": "Municipality of Kananga | BetterKananga",
+    "description": "Profile of the Municipality of Kananga, Leyte: elected officials for 2025 to 2028, the 23 barangays with census populations, and the town's geothermal economy."
+  },
   "/about": {
     "title": "BetterGov.ph | Republic of the Philippines | Community Powered Government Portal",
     "description": "Learn more about BetterGov.ph, the official community-powered portal promoting transparency and civic engagement in the Philippines."

@@ -1,0 +1,29 @@
+{
+  "census": 2020,
+  "source": "PSA 2020 Census of Population via PhilAtlas",
+  "barangays": [
+    { "name": "Aguiting", "population": 2212 },
+    { "name": "Cacao", "population": 1029 },
+    { "name": "Hiluctogan", "population": 2754 },
+    { "name": "Kawayan", "population": 1129 },
+    { "name": "Libertad", "population": 1969 },
+    { "name": "Libongao", "population": 2864 },
+    { "name": "Lim-ao", "population": 3356 },
+    { "name": "Lonoy", "population": 2979 },
+    { "name": "Mahawan", "population": 891 },
+    { "name": "Masarayao", "population": 3257 },
+    { "name": "Monte Alegre", "population": 2725 },
+    { "name": "Monte Bello", "population": 2512 },
+    { "name": "Naghalin", "population": 3182 },
+    { "name": "Natubgan", "population": 3046 },
+    { "name": "Poblacion", "population": 8470 },
+    { "name": "Rizal", "population": 4640 },
+    { "name": "San Ignacio", "population": 379 },
+    { "name": "San Isidro", "population": 1012 },
+    { "name": "Santo Domingo", "population": 583 },
+    { "name": "Santo Niño", "population": 1664 },
+    { "name": "Tagaytay", "population": 3741 },
+    { "name": "Tongonan", "population": 1610 },
+    { "name": "Tugbong", "population": 3692 }
+  ]
+}
