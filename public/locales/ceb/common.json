@@ -1,7 +1,7 @@
 {
   "hero": {
-    "title": "Maayong Pag-abot sa BetterGov.ph",
-    "subtitle": "Ang ganghaan nga gidagan sa mga boluntaryo sa Republika sa Pilipinas. Pangitaa ang kasayuran, gamita ang mga serbisyo sa kagamhanan, ug magpabiling nahibalo sa pinakabag-ong balita mahitungod sa Pilipinas.",
+    "title": "Maayong Pag-abot sa BetterKananga",
+    "subtitle": "Ang portal sa komunidad sa Munisipyo sa Kananga, Leyte. Pangitaa ang mga lokal nga serbisyo, kontaka ang mga buhatan sa munisipyo, ug magpabiling nasayod bahin sa inyong lungsod.",
     "nationalId": "Nasudnong ID",
     "birthCertificate": "Sertipiko sa Pagkatawo",
     "businessRegistration": "Pagparehistro sa Negosyo"
@@ -23,14 +23,15 @@
     "title": "Pinakabag-ong Balita ug mga Update"
   },
   "footer": {
-    "copyright": "2025 BetterGov.ph - Ang tanang sulod kay public domain gawas kung lahi ang gisulti."
+    "copyright": "2026 BetterKananga - Ang tanang sulod kay public domain gawas kung lahi ang gisulti."
   },
   "navbar": {
     "philippines": "Pilipinas",
     "services": "Mga Serbisyo",
     "travel": "Pagbiyahe",
     "government": "Kagamhanan",
-    "flood control projects": "Mga Proyekto sa Flood Control"
+    "flood control projects": "Mga Proyekto sa Flood Control",
+    "kananga": "Kananga"
   },
   "joinUs": {
     "stripTitle": "🚀 Apil sa #CivicTech nga Rebolusyon",

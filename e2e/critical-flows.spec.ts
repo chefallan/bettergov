@@ -63,7 +63,7 @@ test.describe('Critical User Flows', () => {
 
     // Verify language changed (check for Filipino text)
     await expect(
-      page.getByText('Maligayang Pagdating sa BetterGov.ph')
+      page.getByText('Maligayang Pagdating sa BetterKananga')
     ).toBeVisible();
 
     // Switch back to English

@@ -1,7 +1,7 @@
 {
   "hero": {
-    "title": "Maupay nga Pag-abot ha BetterGov.ph",
-    "subtitle": "An volunteer-run portal han Republika han Pilipinas. Pamiling hin impormasyon, pag-access han mga serbisyo han gobyerno, magpabilin nga updated ha pinakaurhi nga balita tungod han Pilipinas."
+    "title": "Maupay nga Pag-abot ha BetterKananga",
+    "subtitle": "An portal han komunidad han Munisipyo han Kananga, Leyte. Bilnga an mga lokal nga serbisyo, kontaka an mga buhatan han munisipyo, ngan magpabilin nga maaram mahitungod han iyo bungto."
   },
   "services": {
     "title": "Mga Sikat nga Serbisyo"
@@ -16,13 +16,14 @@
     "title": "Pinakaurhi nga Balita ngan Updates"
   },
   "footer": {
-    "copyright": "2025 BetterGov.ph - Ngatanan nga sulod in public domain labot la kun may iba nga ginsiring."
+    "copyright": "2026 BetterKananga - Ngatanan nga sulod in public domain labot la kun may iba nga ginsiring."
   },
   "navbar": {
     "philippines": "Pilipinas",
     "services": "Mga Serbisyo",
     "travel": "Pagbiyahe",
     "government": "Gobyerno",
-    "flood control projects": "Mga Proyekto ha Pagpugong han Baha"
+    "flood control projects": "Mga Proyekto ha Pagpugong han Baha",
+    "kananga": "Kananga"
   }
 }

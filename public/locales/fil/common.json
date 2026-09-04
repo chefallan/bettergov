@@ -1,7 +1,7 @@
 {
   "hero": {
-    "title": "Maligayang Pagdating sa BetterGov.ph",
-    "subtitle": "Ang volunteer-run portal ng Republika ng Pilipinas. Maghanap ng impormasyon, i-access ang mga serbisyo ng pamahalaan, manatiling updated sa pinakabagong balita tungkol sa Pilipinas."
+    "title": "Maligayang Pagdating sa BetterKananga",
+    "subtitle": "Ang portal ng pamayanan ng Bayan ng Kananga, Leyte. Humanap ng mga serbisyong lokal, makipag-ugnayan sa mga tanggapan ng munisipyo, at manatiling may kaalaman tungkol sa inyong bayan."
   },
   "services": {
     "title": "Mga Sikat na Serbisyo"
@@ -16,13 +16,14 @@
     "title": "Pinakabagong Balita at Updates"
   },
   "footer": {
-    "copyright": "2025 BetterGov.ph - Lahat ng nilalaman ay public domain maliban kung iba ang nakasaad."
+    "copyright": "2026 BetterKananga - Lahat ng nilalaman ay public domain maliban kung iba ang nakasaad."
   },
   "navbar": {
     "philippines": "Pilipinas",
     "services": "Mga Serbisyo",
     "travel": "Paglalakbay",
     "government": "Pamahalaan",
-    "flood control projects": "Mga Proyekto sa Pagkontrol ng Baha"
+    "flood control projects": "Mga Proyekto sa Pagkontrol ng Baha",
+    "kananga": "Kananga"
   }
 }
