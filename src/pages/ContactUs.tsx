@@ -87,20 +87,20 @@ const ContactUs: FC = () => {
   return (
     <div className='min-h-screen bg-gray-50'>
       <>
-        <title>Contact Us | BetterGov.ph</title>
+        <title>Contact Us | BetterKananga</title>
         <meta
           name='description'
-          content='Contact the BetterGov.ph team. Get in touch with our volunteers, report issues, or join our community.'
+          content='Contact the BetterKananga team. Get in touch with our volunteers, report issues, or join our community.'
         />
         <meta
           name='keywords'
           content='contact, bettergov, volunteer, feedback, support, philippines government'
         />
         <link rel='canonical' href='https://bettergov.ph/contact' />
-        <meta property='og:title' content='Contact Us | BetterGov.ph' />
+        <meta property='og:title' content='Contact Us | BetterKananga' />
         <meta
           property='og:description'
-          content='Contact the BetterGov.ph team. Get in touch with our volunteers, report issues, or join our community.'
+          content='Contact the BetterKananga team. Get in touch with our volunteers, report issues, or join our community.'
         />
         <meta property='og:type' content='website' />
         <meta property='og:url' content='https://bettergov.ph/contact' />

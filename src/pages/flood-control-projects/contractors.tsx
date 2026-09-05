@@ -605,7 +605,7 @@ const FloodControlProjectsContractors: FC = () => {
   return (
     <div className='min-h-screen bg-gray-50'>
       <>
-        <title>Flood Control Projects Contractors | BetterGov.ph</title>
+        <title>Flood Control Projects Contractors | BetterKananga</title>
         <meta
           name='description'
           content='Explore flood control projects by contractor'

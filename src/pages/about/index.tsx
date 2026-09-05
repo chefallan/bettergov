@@ -20,7 +20,7 @@ const AboutPage: FC = () => {
   return (
     <div className='min-h-screen bg-gray-50'>
       <>
-        <title>About | BetterGov.ph</title>
+        <title>About | BetterKananga</title>
         <meta
           name='description'
           content='BetterGov is a volunteer-led tech initiative committed to creating #civictech projects aimed at making government more transparent, efficient, and accessible to citizens.'
@@ -32,7 +32,7 @@ const AboutPage: FC = () => {
         <link rel='canonical' href='https://bettergov.ph/about' />
 
         {/* Open Graph / Social */}
-        <meta property='og:title' content='About | BetterGov.ph' />
+        <meta property='og:title' content='About | BetterKananga' />
         <meta
           property='og:description'
           content='BetterGov is a volunteer-led tech initiative committed to creating #civictech projects aimed at making government more transparent, efficient, and accessible to citizens.'

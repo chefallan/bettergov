@@ -184,7 +184,7 @@ export default function ServicesPage() {
   // Dynamically generate SEO meta tags based on selected category & subcategory
   const { metaTitle, metaDescription, metaKeywords, canonicalUrl } =
     useMemo(() => {
-      const baseTitle = 'Government Services Directory | BetterGov.ph';
+      const baseTitle = 'Government Services Directory | BetterKananga';
       const baseDescription =
         'Browse and search a comprehensive directory of Philippine government services across categories and subcategories.';
 
@@ -197,7 +197,7 @@ export default function ServicesPage() {
       }
 
       const title = phrases.length
-        ? `${phrases.join(' – ')} | BetterGov.ph`
+        ? `${phrases.join(' – ')} | BetterKananga`
         : baseTitle;
 
       const description = phrases.length

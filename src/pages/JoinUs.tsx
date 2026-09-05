@@ -20,13 +20,13 @@ const JoinUs: FC = () => {
   return (
     <div className='min-h-screen bg-linear-to-br from-blue-50 via-white to-purple-50'>
       <>
-        <title>Join Us | BetterGov.ph</title>
+        <title>Join Us | BetterKananga</title>
         <meta
           name='description'
-          content='Join BetterGov.ph—A volunteer-led civic tech initiative building open-source tools to make government more transparent, efficient, and accessible.'
+          content='Join BetterKananga—A volunteer-led civic tech initiative building open-source tools to make government more transparent, efficient, and accessible.'
         />
         <link rel='canonical' href='https://bettergov.ph/join-us' />
-        <meta property='og:title' content='Join Us | BetterGov.ph' />
+        <meta property='og:title' content='Join Us | BetterKananga' />
         <meta
           property='og:description'
           content='Be part of a volunteer-led civic tech initiative building open-source projects for a better government.'
@@ -52,7 +52,7 @@ const JoinUs: FC = () => {
             </h1>
             <p className='text-xl md:text-2xl mb-8 text-blue-100 leading-relaxed'>
               Together with industry veterans, we&apos;re building{' '}
-              <strong>BetterGov.ph</strong> — making government transparent,
+              <strong>BetterKananga</strong> — making government transparent,
               efficient, and accessible to every Filipino.
             </p>
             <div className='flex flex-col sm:flex-row gap-4 justify-center'>

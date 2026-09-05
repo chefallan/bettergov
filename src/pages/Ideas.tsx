@@ -50,7 +50,7 @@ const initialProjectIdeas: ProjectIdea[] = [
     id: '3',
     title: 'Design guidelines for Bettergov.ph',
     description:
-      'Comprehensive design system and guidelines for the BetterGov.ph platform. Includes UI components, color schemes, typography, accessibility standards, and best practices for government web services.',
+      'Comprehensive design system and guidelines for the BetterKananga platform. Includes UI components, color schemes, typography, accessibility standards, and best practices for government web services.',
     category: 'Platform Development',
     icon: <LightbulbIcon className='h-6 w-6' />,
     priority: 'medium',
@@ -114,7 +114,7 @@ const Ideas: FC = () => {
   return (
     <div className='min-h-screen bg-gray-50'>
       <>
-        <title>Project Ideas | BetterGov.ph</title>
+        <title>Project Ideas | BetterKananga</title>
         <meta
           name='description'
           content='Explore innovative project ideas to improve government transparency, accountability, and citizen engagement in the Philippines.'
@@ -126,7 +126,7 @@ const Ideas: FC = () => {
         <link rel='canonical' href='https://bettergov.ph/ideas' />
 
         {/* Open Graph / Social */}
-        <meta property='og:title' content='Project Ideas | BetterGov.ph' />
+        <meta property='og:title' content='Project Ideas | BetterKananga' />
         <meta
           property='og:description'
           content='Explore innovative project ideas to improve government transparency, accountability, and citizen engagement in the Philippines.'

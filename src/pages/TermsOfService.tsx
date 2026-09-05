@@ -18,16 +18,16 @@ const TermsOfService: FC = () => {
   return (
     <div className='min-h-screen bg-gray-50'>
       <>
-        <title>Terms of Service | BetterGov.ph</title>
+        <title>Terms of Service | BetterKananga</title>
         <meta
           name='description'
-          content='Terms of Service for BetterGov.ph - Public domain content, volunteer operation, and user responsibilities for accessing government information.'
+          content='Terms of Service for BetterKananga - Public domain content, volunteer operation, and user responsibilities for accessing government information.'
         />
         <link rel='canonical' href='https://bettergov.ph/terms-of-service' />
-        <meta property='og:title' content='Terms of Service | BetterGov.ph' />
+        <meta property='og:title' content='Terms of Service | BetterKananga' />
         <meta
           property='og:description'
-          content='Terms of Service for BetterGov.ph - Public domain content and volunteer operation guidelines.'
+          content='Terms of Service for BetterKananga - Public domain content and volunteer operation guidelines.'
         />
         <meta property='og:type' content='website' />
         <meta
