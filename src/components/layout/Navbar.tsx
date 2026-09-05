@@ -8,6 +8,7 @@ import {
 import React, { FC, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link, useLocation } from 'react-router-dom';
+import { SITE } from '../../config/site';
 import { mainNavigation } from '../../data/navigation';
 import { LANGUAGES } from '../../i18n/languages';
 import { LanguageType } from '../../types';
@@ -208,14 +209,12 @@ const Navbar: FC = () => {
             <Link to='/' className='flex items-center'>
               <img
                 src='/logos/svg/BetterGov_Icon-Primary.svg'
-                alt='BetterGov Logo'
+                alt={`${SITE.name} logo`}
                 className='h-12 w-12 mr-1 md:mr-3'
               />
               <div>
-                <div className='text-black font-bold'>BetterGov.ph</div>
-                <div className='text-xs text-gray-800'>
-                  A community-run portal for the Philippines
-                </div>
+                <div className='text-black font-bold'>{SITE.name}</div>
+                <div className='text-xs text-gray-800'>{SITE.tagline}</div>
               </div>
             </Link>
           </div>

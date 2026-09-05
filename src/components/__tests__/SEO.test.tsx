@@ -1,5 +1,4 @@
 import { render, waitFor } from '@testing-library/react';
-import { HelmetProvider } from 'react-helmet-async';
 import { MemoryRouter } from 'react-router-dom';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import SEO from '../SEO';
@@ -18,17 +17,31 @@ describe('SEO', () => {
     });
   });
 
+  it('renders head tags without any provider wrapper', async () => {
+    render(
+      <MemoryRouter initialEntries={['/']}>
+        <SEO />
+      </MemoryRouter>
+    );
+
+    await waitFor(() => {
+      expect(
+        document
+          .querySelector('meta[name="DC.language"]')
+          ?.getAttribute('content')
+      ).toBe('en');
+    });
+  });
+
   it('sets DC.language from the active i18n locale', async () => {
     mockUseTranslation.mockReturnValue({
       i18n: { language: 'fil', resolvedLanguage: 'fil' },
     });
 
     render(
-      <HelmetProvider>
-        <MemoryRouter initialEntries={['/']}>
-          <SEO />
-        </MemoryRouter>
-      </HelmetProvider>
+      <MemoryRouter initialEntries={['/']}>
+        <SEO />
+      </MemoryRouter>
     );
 
     await waitFor(() => {
@@ -45,11 +58,9 @@ describe('SEO', () => {
     mockUseTranslation.mockReturnValue({ i18n });
 
     const { rerender } = render(
-      <HelmetProvider>
-        <MemoryRouter initialEntries={['/']}>
-          <SEO />
-        </MemoryRouter>
-      </HelmetProvider>
+      <MemoryRouter initialEntries={['/']}>
+        <SEO />
+      </MemoryRouter>
     );
 
     await waitFor(() => {
@@ -63,11 +74,9 @@ describe('SEO', () => {
     i18n.language = 'fil';
     i18n.resolvedLanguage = 'fil';
     rerender(
-      <HelmetProvider>
-        <MemoryRouter initialEntries={['/']}>
-          <SEO />
-        </MemoryRouter>
-      </HelmetProvider>
+      <MemoryRouter initialEntries={['/']}>
+        <SEO />
+      </MemoryRouter>
     );
 
     await waitFor(() => {
@@ -85,11 +94,9 @@ describe('SEO', () => {
     });
 
     render(
-      <HelmetProvider>
-        <MemoryRouter initialEntries={['/']}>
-          <SEO />
-        </MemoryRouter>
-      </HelmetProvider>
+      <MemoryRouter initialEntries={['/']}>
+        <SEO />
+      </MemoryRouter>
     );
 
     await waitFor(() => {

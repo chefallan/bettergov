@@ -1,9 +1,9 @@
-// helpers for interpolation
+import { MUNICIPALITY, SITE } from '@/config/site';
 
 export function formatStandardTitle(subject: string): string {
-  return `${subject} | BetterGov.ph`;
+  return `${subject} | ${SITE.name}`;
 }
 
 export function formatStandardDescription(subject: string): string {
-  return `Learn more about ${subject} through BetterGov.ph, the Philippines’ civic information portal.`;
+  return `Learn more about ${subject} through ${SITE.name}, the civic information portal of ${MUNICIPALITY.fullName}, ${MUNICIPALITY.province}.`;
 }

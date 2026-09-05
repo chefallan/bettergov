@@ -14,20 +14,19 @@ import {
 } from 'lucide-react';
 import { SiDiscord } from '@icons-pack/react-simple-icons';
 import { FC } from 'react';
-import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 
 const JoinUs: FC = () => {
   return (
     <div className='min-h-screen bg-linear-to-br from-blue-50 via-white to-purple-50'>
-      <Helmet>
-        <title>Join Us | BetterGov.ph</title>
+      <>
+        <title>Join Us | BetterKananga</title>
         <meta
           name='description'
-          content='Join BetterGov.ph—A volunteer-led civic tech initiative building open-source tools to make government more transparent, efficient, and accessible.'
+          content='Join BetterKananga, a volunteer-led civic tech initiative building open-source tools to make government more transparent, efficient, and accessible.'
         />
         <link rel='canonical' href='https://bettergov.ph/join-us' />
-        <meta property='og:title' content='Join Us | BetterGov.ph' />
+        <meta property='og:title' content='Join Us | BetterKananga' />
         <meta
           property='og:description'
           content='Be part of a volunteer-led civic tech initiative building open-source projects for a better government.'
@@ -35,7 +34,7 @@ const JoinUs: FC = () => {
         <meta property='og:type' content='website' />
         <meta property='og:url' content='https://bettergov.ph/join-us' />
         <meta property='og:image' content='https://bettergov.ph/ph-logo.webp' />
-      </Helmet>
+      </>
 
       {/* Hero Section */}
       <section className='relative overflow-hidden bg-linear-to-r from-primary-600 via-blue-700 to-purple-700 text-white'>
@@ -53,7 +52,7 @@ const JoinUs: FC = () => {
             </h1>
             <p className='text-xl md:text-2xl mb-8 text-blue-100 leading-relaxed'>
               Together with industry veterans, we&apos;re building{' '}
-              <strong>BetterGov.ph</strong> — making government transparent,
+              <strong>BetterKananga</strong>: making government transparent,
               efficient, and accessible to every Filipino.
             </p>
             <div className='flex flex-col sm:flex-row gap-4 justify-center'>

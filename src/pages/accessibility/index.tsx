@@ -130,8 +130,8 @@ const AccessibilityPage: FC = () => {
   return (
     <div className='min-h-screen bg-gray-50 py-12'>
       <SEO
-        title='Accessibility Statement | BetterGov.ph'
-        description="Learn about BetterGov.ph's commitment to web accessibility, including WCAG compliance, accessibility features, and how to request assistance."
+        title='Accessibility Statement'
+        description="Learn about BetterKananga's commitment to web accessibility, including WCAG compliance, accessibility features, and how to request assistance."
         keywords={[
           'accessibility',
           'WCAG',
@@ -151,7 +151,7 @@ const AccessibilityPage: FC = () => {
                 Accessibility Statement
               </h1>
               <p className='text-lg text-gray-800'>
-                BetterGov.ph is committed to ensuring digital accessibility for
+                BetterKananga is committed to ensuring digital accessibility for
                 people with disabilities. We are continually improving the user
                 experience for everyone and applying the relevant accessibility
                 standards.
@@ -312,9 +312,9 @@ const AccessibilityPage: FC = () => {
               </h2>
               <div className='prose prose-lg text-gray-800 mb-6'>
                 <p>
-                  We welcome your feedback on the accessibility of BetterGov.ph.
-                  If you encounter accessibility barriers or have suggestions
-                  for improvement, please let us know.
+                  We welcome your feedback on the accessibility of
+                  BetterKananga. If you encounter accessibility barriers or have
+                  suggestions for improvement, please let us know.
                 </p>
               </div>
 

@@ -3,13 +3,11 @@ import { Link } from 'react-router-dom';
 import { HomeIcon, AlertTriangleIcon } from 'lucide-react';
 import Button from '../components/ui/Button';
 
-import { Helmet } from 'react-helmet-async';
-
 export default function NotFound() {
   return (
     <div className='min-h-screen bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800'>
-      <Helmet>
-        <title>Page Not Found! | BetterGov.ph</title>
+      <>
+        <title>Page Not Found! | BetterKananga</title>
         <meta
           name='description'
           content='You might be lost, like some of our government (ghost) services..'
@@ -18,7 +16,7 @@ export default function NotFound() {
         <link rel='canonical' href='https://bettergov.ph/not-found' />
 
         {/* Open Graph / Social */}
-        <meta property='og:title' content='Page Not Found! | BetterGov.ph' />
+        <meta property='og:title' content='Page Not Found! | BetterKananga' />
         <meta
           property='og:description'
           content='You might be lost, like some of our government (ghost) services..'
@@ -26,7 +24,7 @@ export default function NotFound() {
         <meta property='og:type' content='website' />
         <meta property='og:url' content='https://bettergov.ph/not-found' />
         <meta property='og:image' content='https://bettergov.ph/ph-logo.webp' />
-      </Helmet>
+      </>
 
       <div className='relative'>
         <div className='relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-10'>

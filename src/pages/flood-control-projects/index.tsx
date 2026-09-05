@@ -12,7 +12,6 @@ import {
   XIcon,
 } from 'lucide-react';
 import { FC, useMemo, useState } from 'react';
-import { Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
 import { Configure, InstantSearch, useHits } from 'react-instantsearch';
 import {
@@ -613,10 +612,10 @@ const FloodControlProjects: FC = () => {
 
   return (
     <div className='bg-gray-50'>
-      <Helmet>
+      <>
         <title>{t('page.title')}</title>
         <meta name='description' content={t('page.description')} />
-      </Helmet>
+      </>
 
       {/* Main layout with sidebar and content */}
       <div className='container mx-auto px-4 py-8'>

@@ -1,5 +1,4 @@
 import { FC } from 'react';
-import { Helmet } from 'react-helmet-async';
 import {
   Scale,
   Shield,
@@ -18,17 +17,17 @@ const TermsOfService: FC = () => {
 
   return (
     <div className='min-h-screen bg-gray-50'>
-      <Helmet>
-        <title>Terms of Service | BetterGov.ph</title>
+      <>
+        <title>Terms of Service | BetterKananga</title>
         <meta
           name='description'
-          content='Terms of Service for BetterGov.ph - Public domain content, volunteer operation, and user responsibilities for accessing government information.'
+          content='Terms of Service for BetterKananga - Public domain content, volunteer operation, and user responsibilities for accessing government information.'
         />
         <link rel='canonical' href='https://bettergov.ph/terms-of-service' />
-        <meta property='og:title' content='Terms of Service | BetterGov.ph' />
+        <meta property='og:title' content='Terms of Service | BetterKananga' />
         <meta
           property='og:description'
-          content='Terms of Service for BetterGov.ph - Public domain content and volunteer operation guidelines.'
+          content='Terms of Service for BetterKananga - Public domain content and volunteer operation guidelines.'
         />
         <meta property='og:type' content='website' />
         <meta
@@ -36,7 +35,7 @@ const TermsOfService: FC = () => {
           content='https://bettergov.ph/terms-of-service'
         />
         <meta property='og:image' content='https://bettergov.ph/ph-logo.webp' />
-      </Helmet>
+      </>
 
       {/* Header Section */}
       <section className='bg-gradient-to-r from-primary-600 to-blue-700 text-white py-16'>

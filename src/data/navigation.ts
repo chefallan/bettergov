@@ -103,6 +103,10 @@ export const ourProjects = [
 
 export const mainNavigation: NavigationItem[] = [
   {
+    label: 'Kananga',
+    href: '/kananga',
+  },
+  {
     label: 'Philippines',
     href: '/philippines',
     children: [

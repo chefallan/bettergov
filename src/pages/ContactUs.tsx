@@ -9,7 +9,6 @@ import {
 } from 'lucide-react';
 import { SiDiscord } from '@icons-pack/react-simple-icons';
 import { FC, useState } from 'react';
-import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 
 const ContactUs: FC = () => {
@@ -87,26 +86,26 @@ const ContactUs: FC = () => {
 
   return (
     <div className='min-h-screen bg-gray-50'>
-      <Helmet>
-        <title>Contact Us | BetterGov.ph</title>
+      <>
+        <title>Contact Us | BetterKananga</title>
         <meta
           name='description'
-          content='Contact the BetterGov.ph team. Get in touch with our volunteers, report issues, or join our community.'
+          content='Contact the BetterKananga team. Get in touch with our volunteers, report issues, or join our community.'
         />
         <meta
           name='keywords'
           content='contact, bettergov, volunteer, feedback, support, philippines government'
         />
         <link rel='canonical' href='https://bettergov.ph/contact' />
-        <meta property='og:title' content='Contact Us | BetterGov.ph' />
+        <meta property='og:title' content='Contact Us | BetterKananga' />
         <meta
           property='og:description'
-          content='Contact the BetterGov.ph team. Get in touch with our volunteers, report issues, or join our community.'
+          content='Contact the BetterKananga team. Get in touch with our volunteers, report issues, or join our community.'
         />
         <meta property='og:type' content='website' />
         <meta property='og:url' content='https://bettergov.ph/contact' />
         <meta property='og:image' content='https://bettergov.ph/ph-logo.webp' />
-      </Helmet>
+      </>
 
       <div className='container mx-auto px-4 py-6 md:py-8'>
         {/* Header Section */}

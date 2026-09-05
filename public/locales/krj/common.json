@@ -1,6 +1,6 @@
 {
   "hero": {
-    "title": "Mabuhay sa BetterGov.ph",
+    "title": "Mabuhay sa BetterKananga",
     "subtitle": "Ang volunteer-run nga portal kang Republika kang Pilipinas. Pangita-a ang impormasyon, ma-access ang mga government services, kag mag-update sa pinakabag-o nga balita bahin sa Pilipinas.",
     "nationalId": "National ID",
     "birthCertificate": "Birth Certificate",
@@ -23,14 +23,15 @@
     "title": "Pinakabag-o nga Balita kag Updates"
   },
   "footer": {
-    "copyright": "© 2025 BetterGov. Ang tanan nga content ay public domain kon wara gin-specify."
+    "copyright": "© 2026 BetterKananga. Ang tanan nga content ay public domain kon wara gin-specify."
   },
   "navbar": {
     "philippines": "Pilipinas",
     "services": "Services",
     "travel": "Travel",
     "government": "Government",
-    "flood control projects": "Flood Control Projects"
+    "flood control projects": "Flood Control Projects",
+    "kananga": "Kananga"
   },
   "joinUs": {
     "stripTitle": "🚀 Mag-intra sa #CivicTech Revolution",

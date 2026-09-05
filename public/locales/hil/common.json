@@ -1,6 +1,6 @@
 {
   "hero": {
-    "title": "Maayong Pag-abot sa BetterGov.ph",
+    "title": "Maayong Pag-abot sa BetterKananga",
     "subtitle": "Ang volunteer-run portal sang Republika sang Pilipinas. Pangita sang impormasyon, pag-access sang mga serbisyo sang gobyerno, magpabilin nga updated sa pinakabag-o nga balita tungod sa Pilipinas."
   },
   "services": {
@@ -16,13 +16,14 @@
     "title": "Pinakabag-o nga Balita kag Updates"
   },
   "footer": {
-    "copyright": "2025 BetterGov.ph - Tanan nga kaundan public domain liban kon may lain nga ginsiling."
+    "copyright": "2026 BetterKananga - Tanan nga kaundan public domain liban kon may lain nga ginsiling."
   },
   "navbar": {
     "philippines": "Pilipinas",
     "services": "Mga Serbisyo",
     "travel": "Pagbiyahe",
     "government": "Gobyerno",
-    "flood control projects": "Mga Proyekto sa Pagpugong sang Baha"
+    "flood control projects": "Mga Proyekto sa Pagpugong sang Baha",
+    "kananga": "Kananga"
   }
 }

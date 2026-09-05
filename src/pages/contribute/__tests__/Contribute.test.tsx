@@ -1,5 +1,4 @@
 import { render, screen, within } from '@testing-library/react';
-import { HelmetProvider } from 'react-helmet-async';
 import { MemoryRouter } from 'react-router-dom';
 import { describe, expect, it, vi } from 'vitest';
 import Contribute from '..';
@@ -14,11 +13,9 @@ vi.mock('react-i18next', () => ({
 
 const renderPage = () =>
   render(
-    <HelmetProvider>
-      <MemoryRouter initialEntries={['/contribute']}>
-        <Contribute />
-      </MemoryRouter>
-    </HelmetProvider>
+    <MemoryRouter initialEntries={['/contribute']}>
+      <Contribute />
+    </MemoryRouter>
   );
 
 describe('Contribute', () => {

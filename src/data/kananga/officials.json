@@ -1,0 +1,26 @@
+{
+  "term": "2025 to 2028",
+  "source": "ABS-CBN Halalan 2025 results from Comelec data, 100 percent of election returns",
+  "mayor": {
+    "name": "Manuel Vicente M. Torres",
+    "ballotName": "Matt Torres",
+    "party": "PFP",
+    "votes": 20422
+  },
+  "viceMayor": {
+    "name": "Miguel Jorge P. Tan",
+    "ballotName": "Miguel Tan",
+    "party": "PFP",
+    "votes": 18527
+  },
+  "councilors": [
+    { "name": "Fernan Aseo", "party": "PFP", "votes": 18196 },
+    { "name": "Minerva Bulawit", "party": "PFP", "votes": 17501 },
+    { "name": "Richie Cruz", "party": "PFP", "votes": 17435 },
+    { "name": "An-An Napari", "party": "PFP", "votes": 17395 },
+    { "name": "Brenzon Cabintoy", "party": "PFP", "votes": 16659 },
+    { "name": "Allan Espinosa", "party": "PFP", "votes": 16364 },
+    { "name": "Rudy Cogay", "party": "PFP", "votes": 16148 },
+    { "name": "Imo Palar", "party": "PFP", "votes": 15594 }
+  ]
+}
