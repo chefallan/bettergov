@@ -197,7 +197,7 @@ export default function ServicesPage() {
       }
 
       const title = phrases.length
-        ? `${phrases.join(' – ')} | BetterKananga`
+        ? `${phrases.join(' - ')} | BetterKananga`
         : baseTitle;
 
       const description = phrases.length
